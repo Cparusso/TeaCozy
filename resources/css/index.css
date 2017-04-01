@@ -104,3 +104,20 @@ nav span {
 .item h4 {
   margin: 0px auto 10px auto;
 }
+
+/* Locations Section */
+
+#locations {
+  flex-direction: column;
+  padding-top: 70px;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+}
+
+.image-content {
+}
+
+.contact {
+  height: 200px;
+}

@@ -1,4 +1,5 @@
 /* Applies to all */
+
 body {
   margin: 0;
   font-family: helvetica, sans-serif;
@@ -19,6 +20,7 @@ a {
 }
 
 /* Header Section */
+
 header {
   display: flex;
   position: fixed;
@@ -46,13 +48,14 @@ nav span {
 }
 
 /* Content Section */
+/* Mission Section */
+
 .content {
   padding-top: 70px;
 }
 
 #mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  padding-top: 70px;
   height: 700px;
   width: 1200px;
   align-items: center;
@@ -65,4 +68,39 @@ nav span {
   align-items: center;
   width: 100%;
   text-align: center;
+}
+
+.mission h2,
+.mission h4{
+  margin: 12px auto;
+}
+
+/* Store Section */
+
+.store {
+  width: 1000px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.storeitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.itemrow {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 20px;
+}
+
+.item h4 {
+  margin: 0px auto 10px auto;
 }

@@ -108,15 +108,38 @@ nav span {
 /* Locations Section */
 
 #locations {
-  flex-direction: column;
-  padding-top: 70px;
+  margin: 70px auto auto auto;
   text-align: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
+  padding-top: 50px;
 }
 
-.image-content {
+#locations .locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+.location {
+  flex-direction: column;
+  display: flex;
+  opacity: 1;
+  background-color: black;
+  margin: 0;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  margin: auto 20px auto 20px;
+}
+
+.location h4, .location h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Contact Section*/
 
 .contact {
   height: 200px;

@@ -142,5 +142,24 @@ nav span {
 /* Contact Section*/
 
 .contact {
+  display: flex;
+  flex-direction: column;
   height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h5 {
+  margin: 0;
+}
+
+.site {
+  margin-bottom: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: left;
+  margin: auto auto 20px 20px;
 }
